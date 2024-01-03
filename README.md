@@ -1,1 +1,1 @@
-# qa_comviva
+# Juint Testing Project
