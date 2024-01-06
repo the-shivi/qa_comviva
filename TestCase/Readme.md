@@ -1,0 +1,6 @@
+### Test Case File
+
+| Test Case ID    | Test Case Descriptions     | Test Steps        | Prerequites | Test Data | Expected Result | Actual Result | Pass/Fail |
+| :-------------- | :------------------------- | :---------------- | :-------- | :-------------- | :------------ | :-------- |
+| TC01 | Verify that a user can initiate a video call with a contact successfully.| 1. Go to Site `https:// web.whatsapp.com` and login with phone number <br><br> 2. User can choose any contact and click on video call icon and wait for call to be connect | The contact should have an active internet connection and available for video call. | N/A | The video call should be initiated and both people should be able to see and hear each other. | As Expected | Pass |
+| TC02 | Verify that a user can switch between front and rear cameras during a video call.| 1. Initiate a video call with a contact. <br><br> 2. During the call, switch between front and rear cameras.<br><br> 3. Confirm that the video feed switches accordingly. |  A device with both front and rear cameras. | N/A | The user should be able to switch between front and rear cameras, and the video feed should reflect the selected camera.. | As Expected | Pass |
