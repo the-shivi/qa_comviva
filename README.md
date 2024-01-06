@@ -8,7 +8,7 @@
 Click `Finish`
 
 ## Go to `pom.xml` 
-use the code below to setup `dependencies`
+### use the code below to setup `dependencies` for JUnit
 ```xml
     <dependencies>
         <dependency>
@@ -29,8 +29,52 @@ use the code below to setup `dependencies`
         </dependency>
     </dependencies>
 ```
-
-use the code below to setup `build`
+### use the following 'dependencies' for Selenium
+```xml
+    <dependencies>
+		<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-java</artifactId>
+			<version>4.9.0</version>
+		</dependency>
+		<dependency>
+			<groupId>io.github.bonigarcia</groupId>
+			<artifactId>webdrivermanager</artifactId>
+			<!-- <version>5.6.2</version> -->
+			<version>5.2.0</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
+		<dependency>
+			<groupId>commons-io</groupId>
+			<artifactId>commons-io</artifactId>
+			<version>2.11.0</version>
+		</dependency>
+		<dependency>
+			<groupId>ru.yandex.qatools.ashot</groupId>
+			<artifactId>ashot</artifactId>
+			<version>1.5.4</version>
+		</dependency>
+		<dependency>
+			<groupId>org.hamcrest</groupId>
+			<artifactId>java-hamcrest</artifactId>
+			<version>2.0.0.0</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>com.assertthat</groupId>
+			<artifactId>selenium-shutterbug</artifactId>
+			<version>1.5</version>
+			<exclusions>
+				<exclusion>
+					<groupId>org.seleniumhq.selenium</groupId>
+					<artifactId>selenium-java</artifactId>
+				</exclusion>
+			</exclusions>
+		</dependency>
+	</dependencies>
+```
+### use the code below to setup `build`(Plugin)
 ```xml
     <build>
         <pluginManagement><!-- lock down plugins versions to avoid using Maven
