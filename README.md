@@ -3,8 +3,8 @@
 - Download EclipseEE [Click here](https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2023-12/R/eclipse-jee-2023-12-R-win32-x86_64.zip)
 - Create Maven Project
 - Go to `File`>`New`>`Maven Project`
-![eclipse](.JUnit_Testing/Screenshots/Screenshot%20(84).png)
-![eclipse](.JUnit_Testing/Screenshots/Screenshot%20(85).png) 
+![eclipse](./JUnit_Testing/Screenshots/Screenshot%20(84).png)
+![eclipse](./JUnit_Testing/Screenshots/Screenshot%20(85).png) 
 Click `Finish`
 
 ## Go to `pom.xml` 
