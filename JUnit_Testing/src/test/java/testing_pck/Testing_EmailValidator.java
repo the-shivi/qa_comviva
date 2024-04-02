@@ -11,12 +11,12 @@ public class Testing_EmailValidator {
 	public void test_assert_null() {
 		EmailValidator obj = new EmailValidator();
 
-		assertTrue(obj.isValidEmail("Shivam.kumar2@comviva.com"));
+		assertTrue(obj.isValidEmail("adsds@comviva.com"));
 
-		assertTrue(obj.isValidEmail("Shivam.kumar2@comviva.in"));
+		assertTrue(obj.isValidEmail("a3dsdw@comviva.in"));
 
-		assertTrue(obj.isCorporateEmail("Shivam.kumar2@comviva.com"));
-		//assertTrue(obj.isCorporateEmail("Shivam.kumar2@comviva.in"));
+		assertTrue(obj.isCorporateEmail("dfdjksd2@comviva.com"));
+		//assertTrue(obj.isCorporateEmail("cds2@comviva.in"));
 
 	}
 
