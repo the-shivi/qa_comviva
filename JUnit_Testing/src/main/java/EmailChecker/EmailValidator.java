@@ -8,6 +8,6 @@ public class EmailValidator {
 	}
 
 	public boolean isCorporateEmail(String email) {
-		return email != null && email.endsWith("comviva.com");
+		return email != null && email.endsWith("company.com");
 	}
 }
